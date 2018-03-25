@@ -153,6 +153,7 @@ sub{
 
 .color1{
   background-color:#18cc99;
+
 }
 
 .color2{
@@ -197,7 +198,7 @@ sub{
   background-image: url('./img/BG4.jpeg');
   background-size:cover;
   width: 100%;
-  min-height: 600px;
+  min-height: 700px;
 }
 
 .background4 h1{
