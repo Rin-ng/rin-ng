@@ -1,5 +1,6 @@
 # rin-ng
 hactiv8 week 1, homework 3: create a webpage that is hosted on github
+
 A simple portfolio about myself and my skills made with pure HTML + CSS combo.
 
 used tags and syntaxes:
@@ -20,7 +21,9 @@ used tags and syntaxes:
 15. multiple use of class on a single div
 
 About Me:
+
 Hi, My name is Airin Ng.
+
 I created a fun personal portfolio because I planned on upgrading it with lots of JS after learning more about it.
 As such, this was intentionally created to be somewhat funny and a little bit silly instead of all serious.
 I had a lot of fun making it, and hoped you find the contents amusing!
