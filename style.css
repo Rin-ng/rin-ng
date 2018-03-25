@@ -1,0 +1,260 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Condensed', 'Raleway','Padauk', sans-serif;
+  overflow: scroll;
+}
+
+/* Nav Bar */
+nav{
+  float: left;
+  font-size: 25px;
+  word-spacing: 0.8em;
+  height: 40px;
+  font-family: 'Padauk', sans-serif;
+}
+nav li{
+  display: inline-block;
+  margin-right: 30px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+nav a{
+  color: #e2ce8c;
+}
+
+nav a:visited{
+    color:#870e6f;
+}
+
+.nav{
+  background-color: rgba(57, 57, 58, 0.9);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0px;
+}
+
+
+/* First Page Intro*/
+.background1{
+background-image: url("./img/BG1.jpeg");
+background-size: cover;
+min-height: 800px;
+width: 100%;
+display: inline-block;
+border-bottom: black solid 10px;
+}
+
+.intro{
+  display: inline-block;
+  text-align: center;
+  padding: 20%;
+}
+
+.intro h3{
+  font-size: 35px;
+  background-color: rgba(168, 171, 175, 0.5);
+}
+
+.intro h1{
+  font-size: 50px;
+  background-color: rgba(168, 171, 175, 0.5);
+}
+.name{
+  color: #870e6f;
+}
+
+.button{
+  padding: 12px 20px;
+  font-size: 20px;
+  background-color: rgba(168, 171, 175, 0.7);
+  font-weight: bold;
+  border-color: black;
+}
+
+
+
+/* About */
+
+.background2{
+  background-image: url("./img/BG2.jpeg");
+  background-size:cover;
+  width: 100%;
+  min-height: 800px;
+
+}
+
+.background2 h1{
+  padding-top: 50px;
+  text-align: center;
+  font-size: 45px;
+  color: #56b9ea;
+  color:#870e6f;
+  text-decoration: underline;
+
+}
+
+.aboutContent{
+  background-color: #f7ecd4;
+  margin:5% 27%;
+  position: relative;
+  min-height: 500px;
+  padding-left: 13%;
+  padding-right: 10%;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+sub{
+  font-size: 10px;
+}
+
+/* Skills */
+.background3{
+  background-image: url("./img/BG3.jpeg");
+  background-size:cover;
+  width: 100%;
+  min-height: 800px;
+}
+
+.background3 h1, h2{
+  text-align: center;
+}
+
+.background3 h1{
+  font-size: 45px;
+  padding-top: 40px;
+  text-decoration: underline;
+  color:#870e6f;
+}
+.background3 h3{
+  padding-top: 35px;
+  padding-bottom: -10px;
+  padding-left: 5px;
+}
+.block{
+  display: inline-block;
+  float:left;
+  font-size: 35px;
+  text-align: center;
+  min-height: 80px;
+  min-width: 15px;
+  clear: right;
+  width: 38%;
+  margin-left: 115px;
+  word-spacing: 0.3em;
+  margin-bottom: 10px;
+
+}
+
+.color1{
+  background-color:#18cc99;
+
+}
+
+.color2{
+  background-color:#a0dd63;
+}
+
+.color3{
+  background-color:#e0cc4e;
+}
+
+.color4{
+  background-color:#e0cc4e;
+}
+
+.color5{
+  background-color:#7bb7e5;
+}
+
+.color6{
+  background-color:#cc6e3f;
+}
+
+.color7{
+  background-color:#cc6e3f;
+}
+
+.color8{
+  background-color:#cc6e3f;
+}
+
+.smaller{
+  font-size:25px;
+}
+
+.italics{
+  font-style:italic;
+}
+
+/* Contact */
+
+.background4{
+  background-image: url('./img/BG4.jpeg');
+  background-size:cover;
+  width: 100%;
+  min-height: 600px;
+}
+
+.background4 h1{
+  font-size: 45px;
+  padding-top: 40px;
+  text-decoration: underline;
+  color:#870e6f;
+  text-align: center;
+}
+
+.background4 h3{
+  font-size: 25px;
+  text-align: center;
+}
+
+form{
+  font-size: 20px;
+  font-family:'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+input, textarea{
+  box-sizing: border-box;
+}
+
+input{
+  width: 250px;
+}
+textarea{
+  margin: 20px 0px 0px;
+  width: 434px;
+  height: 142px;
+  vertical-align: middle;
+}
+
+.contact{
+  max-width: 150px;
+  padding: 12px 20px;
+  font-size: 20px;
+  background-color: rgb(168, 171, 175);
+  font-weight: bold;
+  border-color: black;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.up{
+  float:right;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(54, 59, 63);
+  background-color: rgba(168, 171, 175, 0.3);
+  padding: 1px 10px;
+  max-height: 30px;
+  margin-right: 30px;
+  border-radius: 40px;
+
+}
