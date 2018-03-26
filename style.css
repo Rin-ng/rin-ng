@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   font-family: 'Roboto Condensed', 'Raleway','Padauk', sans-serif;
-  overflow: scroll;
 }
 
 /* Nav Bar */
@@ -165,22 +164,10 @@ sub{
 }
 
 .color4{
-  background-color:#e0cc4e;
-}
-
-.color5{
   background-color:#7bb7e5;
 }
 
-.color6{
-  background-color:#cc6e3f;
-}
-
-.color7{
-  background-color:#cc6e3f;
-}
-
-.color8{
+.color5{
   background-color:#cc6e3f;
 }
 
